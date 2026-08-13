@@ -1,0 +1,31 @@
+Suppose:
+
+ans = ["banana", "apple", None]
+
+The * unpacks the list.
+
+So:
+
+print(*ans)
+
+is roughly like:
+
+print("banana", "apple", None)
+
+Normally you'd get:
+
+banana apple None
+
+But you've specified:
+
+sep='\n'
+
+which means:
+
+Put a newline between each item.
+
+So the output becomes:
+
+banana
+apple
+None

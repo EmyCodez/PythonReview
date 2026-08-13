@@ -1,0 +1,10 @@
+The key ideas to remember
+
+| Code            | Meaning                              |
+| --------------- | ------------------------------------ |
+| `input()`       | Read a line as a string              |
+| `.split()`      | Break the string into pieces         |
+| `map(int, ...)` | Convert each piece to an integer     |
+| `zip(a, b)`     | Pair elements from two sequences     |
+| `dict(...)`     | Create a dictionary                  |
+| `k, v = ...`    | Unpack two values into two variables |
