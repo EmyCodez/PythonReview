@@ -1,0 +1,61 @@
+for _ in range(n):
+------------------
+for _ in range(n):
+
+This creates a loop that runs n times.
+
+If n = 4:
+
+range(4) → 0, 1, 2, 3
+
+So the loop runs 4 times.
+
+The _ means "I don't need the loop variable."
+
+The final two lines
+---------------------------
+if __name__ == "__main__":
+    main()                 
+----------------------------
+This means:
+
+"If this Python file is being run directly, call main()."
+
+What does end=" " do?
+---------------------
+Normally, print() moves to a new line after printing:
+
+print(1)
+print(2)
+print(3)
+
+Output:
+
+1
+2
+3
+
+But:
+
+print(1, end=" ")
+print(2, end=" ")
+print(3, end=" ")
+
+Output:
+
+1 2 3
+
+end=" " tells Python:
+
+After printing, put a space instead of moving to a new line.
+
+So when utility() is called 4 times:
+
+count = 1 → print 1 + space
+count = 2 → print 2 + space
+count = 3 → print 3 + space
+count = 4 → print 4 + space
+
+Result:
+
+1 2 3 4
