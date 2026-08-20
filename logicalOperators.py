@@ -5,6 +5,12 @@ print ( a < b and b < c)
 print ( a < b or b > c)
 print (not a > b)
 
+# Logical operators evaluating to non-boolean values
+s1 = ""
+s2 = s1 or "DefaultStr"
+# prints DefaultStr as s1 is empty
+print (s2)
+
 # short circuiting, last evaluated value is printed
 x = 10
 print ( x or 20)
